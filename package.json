@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "add-chapter": "node scripts/add-chapter.cjs",
+    "remove-chapter": "node scripts/remove-chapter.cjs",
+    "test": "mocha",
+    "test:chapter1": "mocha test/chapter1/**/*.test.js"
+  },
+  "type": "module",
+  "devDependencies": {
+    "mocha": "^10.7.3",
+    "chai": "^5.1.1"
+  }
+}
